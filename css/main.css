@@ -1,0 +1,9 @@
+/* --- Main Styles --- */
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* --- Media Queries --- */
+
