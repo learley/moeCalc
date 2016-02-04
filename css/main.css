@@ -1,5 +1,70 @@
 /* --- Main Styles --- */
 
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: 'Rambla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-header {
+  width: 100%;
+  display: flex;
+  background-color: #222;
+  justify-content: space-between;
+  padding: 0.5em 2em;
+}
+
+.sitename {
+  display: inline;
+  white-space: nowrap;
+  /*padding-left: 1em;*/
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+
+.main-header a, .main-header a:hover, .main-header a:visited {
+  color: #eee;
+}
+
+.main-nav li {
+  text-transform: uppercase;
+  padding: 0.4em;
+}
+
+.content { 
+  flex: 1;
+}
+
+.main-footer {
+  background-color: #888;
+  width: 100%;
+  padding: 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+
+.main-footer span {
+  padding: .4em;
+}
+
 .clearfix:after {
     clear: both;
 }
