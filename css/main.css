@@ -11,17 +11,22 @@ body {
   min-height: 100vh;
 }
 
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+
 .main-header {
   width: 100%;
   display: flex;
   background-color: #222;
   justify-content: space-between;
-  padding: 0.5em 2em;
+  padding: 0.45em 2em;
 }
 
 .sitename {
   display: inline;
   white-space: nowrap;
+  margin: 0;
   /*padding-left: 1em;*/
 }
 
@@ -34,21 +39,37 @@ body {
   
 }
 
-a, a:hover, a:visited {
-  text-decoration: none;
-}
-
 .main-header a, .main-header a:hover, .main-header a:visited {
   color: #eee;
+  display: block;
+}
+
+.sitename a {
+  padding: 0.5em 0.5em 0.5em 0;
+  
+}
+
+.main-nav a {
+  padding: 0.2em;
+  margin: 0.2em;
+  border: 2px solid transparent;
 }
 
 .main-nav li {
   text-transform: uppercase;
-  padding: 0.4em;
+  
 }
 
-.content { 
+.main-nav .selected {
+  border: 2px solid #eee;
+}
+
+#page-loader {
   flex: 1;
+}
+
+#content-area { 
+  margin: 0 2em;
 }
 
 .main-footer {
