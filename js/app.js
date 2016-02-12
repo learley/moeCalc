@@ -9,8 +9,8 @@ $(".main-nav li").on('click', function(event) {
   event.preventDefault();
   
   // remove 'selected' class from all .main-nav anchor elements 
-  $.each($(this).siblings(), function(i, anchor) {
-    $(anchor).children('a').removeClass('selected');
+  $.each($(this).siblings(), function(i, listElement) {
+    $(listElement).children('a').removeClass('selected');
   })
   // add 'selected' class to target anchor element
   $(this).children('a').addClass('selected');
