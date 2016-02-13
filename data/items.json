@@ -1,0 +1,750 @@
+[
+  {
+    "name" : "Basic Helm",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Chainmail Mask",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 18,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Heirloom Helmet",
+    "level" : 3,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 24,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Guardsman Helm",
+    "level" : 5,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 36,
+        "value" : 6
+      },
+      {
+        "stat" : 37,
+        "value" : 6
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Adventurer's Insight",
+    "level" : 5,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 34,
+        "value" : 3
+      },
+      {
+        "stat" : 19,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sturdy Helmet",
+    "level" : 5,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 29,
+        "value" : 5
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crude Sword",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crude Spear",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crude Crossbow",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Duelist's Sword",
+    "level" : 3,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 11,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crude Dagger",
+    "level" : 3,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 27,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crude Knife",
+    "level" : 5,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 20,
+        "value" : 2
+      },
+      {
+        "stat" : 21,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Ceremonial Dagger",
+    "level" : 5,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 24,
+        "value" : 3
+      },
+      {
+        "stat" : 1,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Captian's Dagger",
+    "level" : 5,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 5
+      },
+      {
+        "stat" : 35,
+        "value" : 10
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Woodsman's Sword",
+    "level" : 8,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 25,
+        "value" : 4
+      },
+      {
+        "stat" : 12,
+        "value" : 1
+      },
+      {
+        "stat" : 13,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Militia Blade",
+    "level" : 8,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 4,
+        "value" : 2
+      },
+      {
+        "stat" : 16,
+        "value" : 3
+      },
+      {
+        "stat" : 20,
+        "value" : 3
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Leather Doublet",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 28,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sturdy Armor",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Brigand's Armor",
+    "level" : 3,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 17,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Peasant Coat",
+    "level" : 5,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 38,
+        "value" : 6
+      },
+      {
+        "stat" : 39,
+        "value" : 6
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Mail Cuirass",
+    "level" : 5,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 11,
+        "value" : 2
+      },
+      {
+        "stat" : 13,
+        "value" : 1
+      },
+		  {
+        "stat" : 15,
+        "value" : 1
+      },
+      {
+        "stat" : 17,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Legionnaire Chest",
+    "level" : 8,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 4
+      },
+      {
+        "stat" : 12,
+        "value" : 2
+      },
+		  {
+        "stat" : 27,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Leather Gloves",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 25,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Warm Grips",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 26,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Militia Gauntlets",
+    "level" : 3,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 2
+      },
+      {
+        "stat" : 18,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Rider Vambrances",
+    "level" : 5,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sturdy Gloves",
+    "level" : 5,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 13,
+        "value" : 2
+      },
+      {
+        "stat" : 4,
+        "value" : 3
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Reinforced Gauntlets",
+    "level" : 8,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 17,
+        "value" : 2
+      },
+      {
+        "stat" : 28,
+        "value" : 3
+      },
+      {
+        "stat" : 20,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Crudest Boots",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 5,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Old Slippers",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 3
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Leather Shoes",
+    "level" : 3,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 39,
+        "value" : 4
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Leatherskin Greaves",
+    "level" : 5,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 17,
+        "value" : 1
+      },
+		  {
+        "stat" : 1,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Light Treads",
+    "level" : 5,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 4
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sturdy Sabatons",
+    "level" : 8,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 21,
+        "value" : 3
+      },
+		  {
+        "stat" : 19,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sturdy Ring",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Iron Signet",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Family Ring",
+    "level" : 3,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 2
+      },
+      {
+        "stat" : 28,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Lost Ring",
+    "level" : 3,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 28,
+        "value" : 2
+      },
+      {
+        "stat" : 39,
+        "value" : 5
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Emerald Signet",
+    "level" : 3,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 27,
+        "value" : 2
+      },
+      {
+        "stat" : 10,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Ruby Ring",
+    "level" : 5,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 17,
+        "value" : 2
+      },
+      {
+        "stat" : 19,
+        "value" : 1
+      },
+      {
+        "stat" : 21,
+        "value" : 1
+      },
+      {
+        "stat" : 29,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Obsidian Band",
+    "level" : 5,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 18,
+        "value" : 3
+      },
+      {
+        "stat" : 26,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Lucky Ring",
+    "level" : 5,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 20,
+        "value" : 3
+      },
+      {
+        "stat" : 34,
+        "value" : 2
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Heirloom Signet",
+    "level" : 8,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 26,
+        "value" : 4
+      },
+      {
+        "stat" : 37,
+        "value" : 4
+      },
+      {
+        "stat" : 1,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  },
+  {
+    "name" : "Sapphire Band",
+    "level" : 8,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 3
+      },
+      {
+        "stat" : 14,
+        "value" : 3
+      },
+      {
+        "stat" : 15,
+        "value" : 1
+      }
+    ],
+    "recipe" : []
+  }
+]
