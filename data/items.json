@@ -89,7 +89,14 @@
         "value" : 5
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "10" : 1,
+      "28" : 1,
+      "3" : 2,
+      "29" : 1,
+      "24" : 1
+    },
+    "recipeCost" : 2500
   },
   {
     "name" : "Crude Sword",
