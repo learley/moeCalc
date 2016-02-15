@@ -53,23 +53,22 @@ var pageInit = function(href) {
 // Builds table row for display
 var itemTR = function(index) {
   var item = items[index];
-  var outHTML = '<tr>'
+  var outHTML = '<tr class="' + itemRarity[item.rarity] + '">';
   
   if (displayItemIndices) {
     outHTML += '<td>' + index + '</td>';
   }
-  outHTML += '<td>' + item.name + '</td>';
-  outHTML += '<td>' + item.level + '</td>';
-  outHTML += '<td>' + itemTypes[item.type] + '</td>';
-  outHTML += '<td>' + itemRarity[item.rarity] + '</td>';
-  outHTML += '<td>' + item.sell + '</td>';
-  
-  outHTML += '<td><ul>';
+  outHTML += '<td class="item-type"><img class="item-icon" src="./img/' + itemTypes[item.type] + '.png" alt=' + itemTypes[item.type] + '</td>';
+  outHTML += '<td class="item-name">' + item.name + '</td>';
+  outHTML += '<td class="item-level">' + item.level + '</td>';
+
+  outHTML += '<td class="item-bonus"><ul>';
   $.each(item.bonus, function(i, bonusItem) {
     outHTML += '<li>' + itemBonuses[bonusItem.stat] + ': ' + bonusItem.value + '%</li>';
   });
   outHTML += '</ul></td>'
   
+  outHTML += '<td class="item-sell"><img class="item-silver" src="./img/silver.png" alt="silver">' + item.sell + '</td>';
   outHTML += '</tr>';
   
   return outHTML;  
@@ -80,12 +79,11 @@ var indexArrayToTable = function(indexArray) {
 
   outHTML += '<table>';
   outHTML += '<thead><tr>';
+  outHTML += '<th scope="col">Type</th>';
   outHTML += '<th scope="col">Name</th>';
   outHTML += '<th scope="col">Level</th>';
-  outHTML += '<th scope="col">Type</th>';
-  outHTML += '<th scope="col">Rarity</th>';
-  outHTML += '<th scope="col">Sell<br>(silver)</th>';
   outHTML += '<th scope="col">Bonuses</th>';
+  outHTML += '<th scope="col">Sell</th>';
   outHTML += '</tr></thead>';
   
   outHTML += '<tbody>';
@@ -107,11 +105,10 @@ var testFullDisplay = function() {
   outHTML += '<table>';
   outHTML += '<thead><tr>';
   outHTML += '<th scope="col">Index</th>';
+  outHTML += '<th scope="col">Type</th>';  
   outHTML += '<th scope="col">Name</th>';
   outHTML += '<th scope="col">Level</th>';
-  outHTML += '<th scope="col">Type</th>';
-  outHTML += '<th scope="col">Rarity</th>';
-  outHTML += '<th scope="col">Sell<br>(silver)</th>';
+  outHTML += '<th scope="col">Sell</th>';
   outHTML += '<th scope="col">Bonuses</th>';
   outHTML += '</tr></thead>';
   
