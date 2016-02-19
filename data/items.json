@@ -11,7 +11,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Chainmail Mask",
@@ -25,7 +25,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Heirloom Helmet",
@@ -39,7 +39,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Guardsman Helm",
@@ -57,7 +57,10 @@
         "value" : 6
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "1" : 2
+    },
+    "recipeCost" : 2500
   },
   {
     "name" : "Adventurer's Insight",
@@ -75,7 +78,12 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "6" : 1,
+      "35" : 2,
+      "16" : 2,
+      "17" : 1
+    }
   },
   {
     "name" : "Sturdy Helmet",
@@ -110,7 +118,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Crude Spear",
@@ -124,7 +132,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Crude Crossbow",
@@ -138,7 +146,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Duelist's Sword",
@@ -152,7 +160,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Crude Dagger",
@@ -166,7 +174,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Crude Knife",
@@ -184,7 +192,9 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "10" : 2
+    }
   },
   {
     "name" : "Ceremonial Dagger",
@@ -202,7 +212,10 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "7" : 2,
+      "2" : 2
+    }
   },
   {
     "name" : "Captian's Dagger",
@@ -220,7 +233,12 @@
         "value" : 10
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "6" : 2,
+      "23" : 1,
+      "28" : 1,
+      "9" : 2
+    }
   },
   {
     "name" : "Woodsman's Sword",
@@ -242,7 +260,12 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "8" : 2,
+      "29" : 1,
+      "38" : 1,
+      "0" : 2
+    }
   },
   {
     "name" : "Militia Blade",
@@ -264,7 +287,14 @@
         "value" : 3
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "11" : 2,
+      "34" : 1,
+      "37" : 1,
+      "18" : 1,
+      "22" : 1
+      
+    }
   },
   {
     "name" : "Leather Doublet",
@@ -278,7 +308,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Sturdy Armor",
@@ -292,7 +322,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Brigand's Armor",
@@ -306,7 +336,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Peasant Coat",
@@ -324,7 +354,10 @@
         "value" : 6
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "17" : 1,
+      "18" : 1
+    }
   },
   {
     "name" : "Mail Cuirass",
@@ -350,7 +383,13 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "0" : 1,
+      "24" : 1,
+      "18" : 2,
+      "1" : 1,
+      "35" : 1
+    }
   },
   {
     "name" : "Legionnaire Chest",
@@ -372,7 +411,11 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {
+      "16" : 2,
+      "28" : 2,
+      "19" : 2
+    }
   },
   {
     "name" : "Leather Gloves",
@@ -386,7 +429,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Warm Grips",
@@ -400,7 +443,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Militia Gauntlets",
@@ -418,7 +461,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Rider Vambrances",
@@ -432,7 +475,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Sturdy Gloves",
@@ -450,7 +493,7 @@
         "value" : 3
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Reinforced Gauntlets",
@@ -472,7 +515,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Crudest Boots",
@@ -486,7 +529,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Old Slippers",
@@ -500,7 +543,7 @@
         "value" : 3
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Leather Shoes",
@@ -514,7 +557,7 @@
         "value" : 4
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Leatherskin Greaves",
@@ -532,7 +575,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Light Treads",
@@ -546,7 +589,7 @@
         "value" : 4
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Sturdy Sabatons",
@@ -564,7 +607,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Sturdy Ring",
@@ -578,7 +621,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Iron Signet",
@@ -592,7 +635,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Family Ring",
@@ -610,7 +653,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Lost Ring",
@@ -628,7 +671,7 @@
         "value" : 5
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Emerald Signet",
@@ -646,7 +689,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Ruby Ring",
@@ -672,7 +715,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Obsidian Band",
@@ -690,7 +733,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Lucky Ring",
@@ -708,7 +751,7 @@
         "value" : 2
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Heirloom Signet",
@@ -730,7 +773,7 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   },
   {
     "name" : "Sapphire Band",
@@ -752,6 +795,6 @@
         "value" : 1
       }
     ],
-    "recipe" : []
+    "recipe" : {}
   }
 ]

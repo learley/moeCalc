@@ -5,6 +5,7 @@ var itemRarity = ["common", "uncommon", "rare", "epic", "legendary"];
 var itemBonuses = ["Army Load", "Training Speed", "Faction Unit Training Speed", "Healing Speed", "Gathering Speed", "March Speed", "Squad Size", "Rally Size", "Army Attack", "Army Health", "Swordsmen Attack", "Swordsmen Health", "Spearmen Attack", "Spearmen Health", "Cavalry Attack", "Cavalry Health", "Ranged Attack", "Ranged Health", "Seige Machine Attack", "Seige Machine Health", "Defense's Effectiveness", "Defense's Durability", "Faction Unit Attack", "Faction Unit Health", "Food Income", "Wood Income", "Stone Income", "Iron Income", "Silver Income", "Construction Speed", "Trap Construction Speed", "Resource Sending Limit", "Champion XP", "Upkeep", "Research Speed", "Wood Capacity", "Stone Capacity", "Iron Capacity", "Silver Capacity"];
 
 var displayItemIndices = false;
+var tableDepth = 0;
 
 /* Page Loader */
 
@@ -41,7 +42,9 @@ var pageInit = function(href) {
   switch(href) {
     case "craft.html" :
       displayItemIndices = false;
-      testDisplay();
+      testDisplay(5);
+      //testDisplay(3);
+      bindTableEvents();
       break;
     case "inventory.html" :
       displayItemIndices = true;
@@ -53,7 +56,7 @@ var pageInit = function(href) {
 // Builds table row for display
 var itemTR = function(index) {
   var item = items[index];
-  var outHTML = '<tr class="' + itemRarity[item.rarity] + '">';
+  var outHTML = '<tr class="item-tr ' + itemRarity[item.rarity] + '">';
   
   if (displayItemIndices) {
     outHTML += '<td>' + index + '</td>';
@@ -81,7 +84,7 @@ var indexArrayToTable = function(indexArray) {
   outHTML += '<thead><tr>';
   outHTML += '<th scope="col">Type</th>';
   outHTML += '<th scope="col">Name</th>';
-  outHTML += '<th scope="col">Level</th>';
+  outHTML += '<th scope="col" class="item-level">Level</th>';
   outHTML += '<th scope="col">Bonuses</th>';
   outHTML += '<th scope="col">Sell</th>';
   outHTML += '</tr></thead>';
@@ -102,7 +105,7 @@ var testFullDisplay = function() {
 
   var outHTML = '';
 
-  outHTML += '<table>';
+  outHTML += '<table class="table-depth-0">';
   outHTML += '<thead><tr>';
   outHTML += '<th scope="col">Index</th>';
   outHTML += '<th scope="col">Type</th>';  
@@ -123,18 +126,54 @@ var testFullDisplay = function() {
   $('#content-area').append(outHTML);
 }
 
-var testDisplay = function() {
+var testDisplay = function(testItemIndex) {
   var outHTML = '';
-  var displayArray = [];
-  var testItemIndex = 5;
-  var testItem = items[testItemIndex];
+  // var displayArray = [];
+  // var testItem = items[testItemIndex];
   
-  //displayArray.push(testItemIndex);
-  $.each(Object.keys(testItem.recipe), function(i,inputItem) {
-    displayArray.push(parseInt(inputItem));
-  });
-  console.log(displayArray);
-  outHTML = indexArrayToTable(displayArray);
+  // //displayArray.push(testItemIndex);
+  // $.each(Object.keys(testItem.recipe), function(i,inputItem) {
+  //   displayArray.push(parseInt(inputItem));
+  // });
+  // outHTML = indexArrayToTable(displayArray);
+  outHTML += craftTableTree(testItemIndex);
       
-  $('#content-area').html(outHTML);
+  $('#content-area').append(outHTML);
+}
+
+var craftTableTree = function(baseItemIndex) {
+  var outHTML = '';
+  var baseItem = items[baseItemIndex];
+  
+  if (tableDepth === 0) {
+    outHTML += '<table class="table-depth-' + tableDepth + '">';
+  }
+  tableDepth += 1;
+  
+  outHTML += itemTR(baseItemIndex); 
+  outHTML += '<tr class="hidden table-container-tr"><td colspan=5 class="table-container-td">';
+  outHTML += '<table class="table-depth-' + tableDepth + '">';
+  if (!$.isEmptyObject(baseItem.recipe)) {
+    $.each(Object.keys(baseItem.recipe), function(i,recipeItemIndex) {
+      outHTML += craftTableTree(recipeItemIndex);
+    });
+  }
+  else {
+    outHTML += 'This item cannot be crafted.';
+  }
+  outHTML += '</table></td></tr>';
+  tableDepth -= 1;
+  
+  if (tableDepth === 0) {
+    outHTML += '</table>';
+  }
+  
+  return outHTML;
+}
+
+var bindTableEvents = function() {
+  $(".table-depth-0").children().children(".hidden").removeClass("hidden");
+  $(".item-tr").on('click', function() {
+    $(this).next().toggleClass("hidden");
+  });
 }
