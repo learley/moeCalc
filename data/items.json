@@ -475,7 +475,10 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "22" : 1,
+      "24" : 1
+    }
   },
   {
     "name" : "Sturdy Gloves",
@@ -493,7 +496,11 @@
         "value" : 3
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "23" : 2,
+      "36" : 3,
+      "37" : 1
+    }
   },
   {
     "name" : "Reinforced Gauntlets",
@@ -515,7 +522,12 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "7" : 1,
+      "9" : 1,
+      "25" : 2,
+      "17" : 2
+    }
   },
   {
     "name" : "Crudest Boots",
@@ -575,7 +587,9 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "30" : 2
+    }
   },
   {
     "name" : "Light Treads",
@@ -589,7 +603,12 @@
         "value" : 4
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "9" : 2,
+      "10" : 2,
+      "34" : 1,
+      "37" : 1
+    }
   },
   {
     "name" : "Sturdy Sabatons",
@@ -607,7 +626,13 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "24" : 1,
+      "36" : 1,
+      "31" : 2,
+      "38" : 1,
+      "35" : 1      
+    }
   },
   {
     "name" : "Sturdy Ring",
@@ -715,7 +740,9 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "34" : 2
+    }
   },
   {
     "name" : "Obsidian Band",
@@ -733,7 +760,10 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "6" : 2,
+      "30" : 2
+    }
   },
   {
     "name" : "Lucky Ring",
@@ -751,7 +781,13 @@
         "value" : 2
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "7" : 2,
+      "2" : 1,
+      "22" : 1,
+      "29" : 1,
+      "38" : 1
+    }
   },
   {
     "name" : "Heirloom Signet",
@@ -773,7 +809,12 @@
         "value" : 1
       }
     ],
-    "recipe" : {}
+    "recipe" : {
+      "8" : 2,
+      "38" : 2,
+      "23" : 1,
+      "37" : 1
+    }
   },
   {
     "name" : "Sapphire Band",
@@ -793,6 +834,35 @@
       {
         "stat" : 15,
         "value" : 1
+      }
+    ],
+    "recipe" : {
+      "0" : 1,
+      "1" : 1,
+      "2" : 1,
+      "39" : 1,
+      "40" : 1,
+      "22" : 1
+    }
+  },
+  {
+    "name" : "City Guard's Helm",
+    "level" : 16,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 25,
+        "value" : 7
+      },
+      {
+        "stat" : 26,
+        "value" : 7
+      },
+      {
+        "stat" : 28,
+        "value" : 7
       }
     ],
     "recipe" : {}

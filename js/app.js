@@ -42,9 +42,8 @@ var pageInit = function(href) {
   switch(href) {
     case "craft.html" :
       displayItemIndices = false;
-      testDisplay(5);
-      //testDisplay(3);
-      bindTableEvents();
+      generateCraftFilterSelects();
+      updateCraftItemSelect();
       break;
     case "inventory.html" :
       displayItemIndices = true;
@@ -105,7 +104,7 @@ var testFullDisplay = function() {
 
   var outHTML = '';
 
-  outHTML += '<table class="table-depth-0">';
+  outHTML += '<table class="table-depth-0" style="float:left;">';
   outHTML += '<thead><tr>';
   outHTML += '<th scope="col">Index</th>';
   outHTML += '<th scope="col">Type</th>';  
@@ -119,9 +118,18 @@ var testFullDisplay = function() {
   $.each(items, function(i, item) {
     outHTML += itemTR(i);
   });
-  outHTML += '</tbody>';
+  outHTML += '</tbody></table>';
   
-  outHTML += '</table>';
+  outHTML += '<table class="table-depth-0" style="float:left;">';
+  outHTML += '<thead><tr>';
+  outHTML += '<th scope="col">Index</th>';
+  outHTML += '<th scope="col">Stat</th>';
+  outHTML += '</tr></thead>';
+  outHTML += '<tbody>';
+  $.each(itemBonuses, function(i, bonus) {
+    outHTML += '<tr><td>' + i + '</td><td>' + bonus + '</td></tr>';
+  });
+  outHTML += '</tbody></table>';
   
   $('#content-area').append(outHTML);
 }
@@ -138,7 +146,8 @@ var testDisplay = function(testItemIndex) {
   // outHTML = indexArrayToTable(displayArray);
   outHTML += craftTableTree(testItemIndex);
       
-  $('#content-area').append(outHTML);
+  $('#craft-tree').html(outHTML);
+  bindTableEvents();
 }
 
 var craftTableTree = function(baseItemIndex) {
@@ -177,3 +186,47 @@ var bindTableEvents = function() {
     $(this).next().toggleClass("hidden");
   });
 }
+
+var generateCraftFilterSelects = function() {
+  var $type = $('#type');
+  var $rarity = $('#rarity');
+  var optionsHTML = '';
+  
+  $.each(itemTypes, function(i, type) {
+    optionsHTML += '<option value=' + i + '>' + capStr(type) + '</option>';
+  });
+  $type.html(optionsHTML);
+  
+  optionsHTML = '';
+  $.each(itemRarity, function(i, rarity) {
+    optionsHTML += '<option value=' + i + '>' + capStr(rarity) + '</option>';
+  });
+  $rarity.html(optionsHTML);
+  
+  $type.change(updateCraftItemSelect);
+  $rarity.change(updateCraftItemSelect);
+  $('#load-item').click(function() {
+    var itemValue = parseInt(($('#item').val()));
+    testDisplay(itemValue);
+  });
+}
+
+var updateCraftItemSelect = function() {
+  var typeValue = parseInt($('#type').val());
+  var rarityValue = parseInt($('#rarity').val());
+  var $item = $('#item');
+  var optionsHTML = '';
+  
+  $.each(items, function(i, currentItem) {
+    if (currentItem.type === typeValue && currentItem.rarity === rarityValue){
+      optionsHTML += '<option value=' + i + '>' + currentItem.name + '</option>';  
+    }    
+  });
+  $item.html(optionsHTML);
+}
+
+// Capitalizes first letter of inputString
+var capStr = function(inputString) {
+  return inputString.substr(0,1).toUpperCase() + inputString.substr(1);
+}
+
