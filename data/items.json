@@ -865,6 +865,471 @@
         "value" : 7
       }
     ],
-    "recipe" : {}
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ornate Coif",
+    "level" : 13,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 12
+      },
+      {
+        "stat" : 17,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Roadguard's Casque",
+    "level" : 13,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 4,
+        "value" : 5
+      },
+      {
+        "stat" : 13,
+        "value" : 8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Quality Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 9
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Rider Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 6
+      },
+      {
+        "stat" : 1,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Tempered Iron Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 11,
+        "value" : 5
+      },
+      {
+        "stat" : 21,
+        "value" : 5
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Helm of Night",
+    "level" : 15,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 35,
+        "value" : 16
+      },
+      {
+        "stat" : 36,
+        "value" : 16
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Glowing Pumpkin Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 15
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Hardened Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 8,
+        "value" : 15
+      },
+      {
+        "stat" : 11,
+        "value" : 17
+      },
+      {
+        "stat" : 15,
+        "value" : 17
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Sharpshooter's Helm",
+    "level" : 10,
+    "type" : 0,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 27,
+        "value" : 18
+      },
+      {
+        "stat" : 29,
+        "value" : 8
+      },
+      {
+        "stat" : 40,
+        "value" : 1
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Blunt Sword",
+    "level" : 16,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 1,
+        "value" : 6
+      },
+      {
+        "stat" : 25,
+        "value" : 4
+      },
+      {
+        "stat" : 27,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Throwing Axe",
+    "level" : 16,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 25,
+        "value" : 7
+      },
+      {
+        "stat" : 27,
+        "value" : 7
+      },
+      {
+        "stat" : 20,
+        "value" : 5
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ornate Dagger",
+    "level" : 13,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 18,
+        "value" : 8
+      },
+      {
+        "stat" : 1,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Taskmaster's Dagger",
+    "level" : 13,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 39,
+        "value" : 4
+      },
+      {
+        "stat" : 38,
+        "value" : 5
+      },
+      {
+        "stat" : 11,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Merchant Knife",
+    "level" : 13,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 9
+      },
+      {
+        "stat" : 5,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Balanced Sword",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 6
+      },
+      {
+        "stat" : 16,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Iron Spear",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 6
+      },
+      {
+        "stat" : 0,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Balanced Crossbow",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 7
+      },
+      {
+        "stat" : 34,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Rider Sword",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 6
+      },
+      {
+        "stat" : 17,
+        "value" : 2
+      },
+      {
+        "stat" : 26,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Swift Blade",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 8,
+        "value" : 5
+      },
+      {
+        "stat" : 19,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Blessed Hammer",
+    "level" : 15,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 9,
+        "value" : 7
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Sharpened Hatchet",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 5,
+        "value" : 9
+      },
+      {
+        "stat" : 16,
+        "value" : 12
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Tournament Crossbow",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 22
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Sahib's Knife",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 30
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Standard Amazon Bow",
+    "level" : 10,
+    "type" : 1,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 12
+      },
+      {
+        "stat" : 17,
+        "value" : 11
+      },
+      {
+        "stat" : 25,
+        "value" : 24
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
   }
 ]

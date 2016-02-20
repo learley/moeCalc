@@ -110,8 +110,8 @@ var testFullDisplay = function() {
   outHTML += '<th scope="col">Type</th>';  
   outHTML += '<th scope="col">Name</th>';
   outHTML += '<th scope="col">Level</th>';
-  outHTML += '<th scope="col">Sell</th>';
   outHTML += '<th scope="col">Bonuses</th>';
+  outHTML += '<th scope="col">Sell</th>';
   outHTML += '</tr></thead>';
   
   outHTML += '<tbody>';
