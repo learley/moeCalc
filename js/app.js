@@ -1,3 +1,33 @@
+angular.module('moeCalcApp', ['ngRoute'])
+.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+    .when('/', {
+      templateUrl: 'templates/home.html',
+      controller: 'homeCtrl'
+    })
+    .when('/craft', {
+      templateUrl: 'templates/craft.html',
+      controller: 'craftCtrl'
+    })
+    .when('/inventory', {
+      templateUrl: 'templates/inventory.html',
+      controller: 'inventoryCtrl'
+    })
+    .when('/equip', {
+      templateUrl: 'templates/equip.html',
+      controller: 'equipCtrl'
+    })
+    .when('/about', {
+      templateUrl: 'templates/about.html',
+      controller: 'aboutCtrl'
+    })
+    .otherwise({
+       redirectTo: '/'
+    });
+}]);
+
+
+
 var itemDataURL = "./data/items.json"
 var items = [];
 var itemTypes = ["helmet", "weapon", "torso", "gloves", "boots", "ring"];
@@ -16,7 +46,7 @@ $(".main-nav li").on('click', function(event) {
   var targetContent = targetHref + ' #content-area';
   
   // block normal target page load
-  event.preventDefault();
+  //event.preventDefault();
   
   // remove 'selected' class from all .main-nav anchor elements 
   $.each($(this).siblings(), function(i, listElement) {
@@ -26,9 +56,10 @@ $(".main-nav li").on('click', function(event) {
   $(this).children('a').addClass('selected');
   
   // load #content-area div from target html document into #page-loader div
-  $pageLoader.load(targetContent, function() {
-    pageInit(targetHref);      
-  });
+  // $pageLoader.load(targetContent, function() {
+  //   pageInit(targetHref);      
+  // });
+  pageInit(targetHref);  
   
 });
 
@@ -40,12 +71,12 @@ $.getJSON(itemDataURL, function(data) {
 
 var pageInit = function(href) {
   switch(href) {
-    case "craft.html" :
+    case "#/craft" :
       displayItemIndices = false;
       generateCraftFilterSelects();
       updateCraftItemSelect();
       break;
-    case "inventory.html" :
+    case "#/inventory" :
       displayItemIndices = true;
       testFullDisplay();
       break;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="moeCalcApp" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -16,40 +16,18 @@
   <body>
     <!-- Header and Navigation -->
     <header class="main-header">
-        <h1 class="sitename"><a href="index.html">MoE Calc</a></h1>
+        <h1 class="sitename"><a href="">MoE Calc</a></h1>
         <ul class="main-nav">
-          <li><a class="selected" href="index.html">home</a></li>
-          <li><a href="craft.html">craft</a></li>
-          <li><a href="inventory.html">inventory</a></li>
-          <li><a href="equip.html">equipment</a></li>
-          <li><a href="about.html">about</a></li>
+          <li><a class="selected" href="#/">home</a></li>
+          <li><a href="#/craft">craft</a></li>
+          <li><a href="#/inventory">inventory</a></li>
+          <li><a href="#/equip">equipment</a></li>
+          <li><a href="#/about">about</a></li>
         </ul>
     </header>
     
     <!-- Content -->
-    <div id="page-loader">
-      <div id="content-area">
-        <h2>Home</h2>
-        <h3>Icon Testing</h3>
-        <ul>
-            <li><img src="./img/helmet.png"></li>
-            <li><img src="./img/weapon.png"></li>
-            <li><img src="./img/torso.png"></li>
-            <li><img src="./img/gloves.png"></li>
-            <li><img src="./img/boots.png"></li>
-            <li><img src="./img/ring.png"></li>
-            <li><img src="./img/silver.png"></li>
-      <h3>Table Row Coloring Testing</h3>        
-      <table>
-        <tr class="common"><td>Common</td></tr>
-        <tr class="uncommon"><td>Uncommon</td></tr>
-        <tr class="rare"><td>Rare</td></tr>
-        <tr class="epic"><td>Epic</td></tr>
-        <tr class="legendary"><td>Legendary</td></tr>
-      </table>
-      
-      </div>      
-    </div>    
+    <div ng-view></div>
     
     <!-- Footer -->
     <footer class="main-footer">
@@ -60,7 +38,10 @@
     
     <!-- Script loading -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/controllers/home.js"></script>
+    <script src="js/services/data.js"></script>
   </body>
 </html>
