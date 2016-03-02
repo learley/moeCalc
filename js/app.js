@@ -59,7 +59,6 @@ $(".main-nav li").on('click', function(event) {
   // $pageLoader.load(targetContent, function() {
   //   pageInit(targetHref);      
   // });
-  pageInit(targetHref);  
   
 });
 
