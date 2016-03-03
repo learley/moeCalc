@@ -45,6 +45,12 @@ angular.module('moeCalcApp')
     $scope.itemTypes = itemTypes;
     $scope.itemRarity = itemRarity;
     $scope.itemBonuses = itemBonuses;
+    
+    $scope.item_type = 0;
+    $scope.item_rarity = 0;
+    $scope.item_select = 0;
+    
+    
   }])
 .controller('inventoryCtrl', 
   ['$scope', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 

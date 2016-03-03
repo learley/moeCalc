@@ -2,25 +2,30 @@
   <form id="item-picker" action="">
     <fieldset name="item_filters">
       <p>
-        <label for="type">Type:</label>
-        <select id="type" name="item_type">
-        </select>
+        <label for="type">Type:
+          <select ng-model="item_type" ng-options="itemTypes.indexOf(type) as type for type in itemTypes" id="type" name="item_type">
+          </select>
+        </label>
       </p>
       <p> 
         <label for="rarity">Rarity:</label>
-        <select id="rarity" name="item_rarity">
+        <select ng-model="item_rarity" ng-options="itemRarity.indexOf(rarity) as rarity for rarity in itemRarity" id="rarity" name="item_rarity">
         </select>
       </p>
     </fieldset>
     <fieldset>
       <p>
         <label for="item">Item:</label>
-        <select id="item" name="item_select">
+        <select ng-model="item_select" ng-options="items.indexOf(item) as item.name for item in items | filter: {type : item_type, rarity : item_rarity}" id="item" name="item_select">
+          
         </select>
         <button id="load-item" name="load_item" type="button">Load</button>
       </p>
     </fieldset>
   </form>
   <div id="craft-tree">
+    {{item_type}}
+    {{item_rarity}}
+    {{item_select}}
   </div>
 </div>
