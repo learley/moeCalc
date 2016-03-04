@@ -1,0 +1,20 @@
+<!--{{items[itemIndex].name}} | {{qty}} | {{items[itemIndex].recipe}}
+<ul ng-if="isEmpty(items[itemIndex].recipe)">
+  <li ng-repeat="(itemIndex, qty) in items[itemIndex].recipe" ng-include="'/templates/craft-tree.html'">
+  </li>
+</ul>-->
+
+<td>{{itemIndex}}</td>
+<td class="item-type"><img class="item-icon" ng-src="./img/{{itemTypes[item.type]}}.png" alt="{{itemTypes[item.type]}}"></td>
+<td class="item-name">{{item.name}}</td>
+<td class="item-level">{{item.level}}</td>
+<td class="item-bonus">
+  <ul ng-repeat="bonus in item.bonus">
+    <li>{{itemBonuses[bonus.stat]}}: {{bonus.value}}%</li>
+  </ul>
+</td>
+<td class="item-sell"><img class="item-silver" src="./img/silver.png" alt="silver">{{item.sell}}</td>
+
+<table ng-if="isEmpty(item.recipe)">
+  <tr ng-repeat="(itemIndex, qty) in item.recipe" ng-init="item = items[itemIndex]" ng-class="itemRarity[items[item].rarity]"></tr>
+</table>

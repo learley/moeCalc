@@ -3,13 +3,13 @@
     <fieldset name="item_filters">
       <p>
         <label for="type">Type:
-          <select ng-model="item_type" ng-options="itemTypes.indexOf(type) as type for type in itemTypes" id="type" name="item_type">
+          <select ng-model="item_type" ng-options="itemTypes.indexOf(type) as type|capitalize for type in itemTypes" id="type" name="item_type">
           </select>
         </label>
       </p>
       <p> 
         <label for="rarity">Rarity:</label>
-        <select ng-model="item_rarity" ng-options="itemRarity.indexOf(rarity) as rarity for rarity in itemRarity" id="rarity" name="item_rarity">
+        <select ng-model="item_rarity" ng-options="itemRarity.indexOf(rarity) as rarity|capitalize for rarity in itemRarity" id="rarity" name="item_rarity">
         </select>
       </p>
     </fieldset>
@@ -26,6 +26,12 @@
   <div id="craft-tree">
     {{item_type}}
     {{item_rarity}}
-    {{item_select}}
+    {{item_select}}<br/>
+    {{items[item_select].recipe}}<br/>
+    {{items[item_select].name}}
+    <table class="table-depth-0">
+      <tr ng-repeat="(itemIndex, qty) in items[item_select].recipe" ng-init="item = items[itemIndex]" ng-include="'/templates/craft-tree.html'" ng-class="itemRarity[item.rarity]"></tr>       
+    </table>
+  
   </div>
 </div>

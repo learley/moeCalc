@@ -1,6 +1,14 @@
 'use strict';
 
 angular.module('moeCalcApp')
+.filter('capitalize', function() {
+  return function(input, scope) {
+    if (input!=null) {
+      input = input.toLowerCase();
+      return input.substring(0,1).toUpperCase()+input.substring(1);
+    } 
+  }
+})
 .controller('navCtrl', ['$scope', '$location', function($scope, $location) {
   $scope.links = [
     {
@@ -50,7 +58,9 @@ angular.module('moeCalcApp')
     $scope.item_rarity = 0;
     $scope.item_select = 0;
     
-    
+    $scope.isEmpty = function(obj) {
+      return Object.keys(obj).length > 0;
+    }
   }])
 .controller('inventoryCtrl', 
   ['$scope', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
