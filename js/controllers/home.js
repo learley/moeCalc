@@ -9,6 +9,14 @@ angular.module('moeCalcApp')
     } 
   }
 })
+.controller('mainCtrl', ['$scope', 'dataService', function($scope, dataService) {
+  
+  dataService.getItems(function(response) {
+    $scope.items = response.data;
+    dataService.items = response.data;
+  });  
+  
+}])
 .controller('navCtrl', ['$scope', '$location', function($scope, $location) {
   $scope.links = [
     {
@@ -37,15 +45,8 @@ angular.module('moeCalcApp')
     return (path.substr(1) === $location.path());  
   }
 }])
-.controller('homeCtrl', ['$scope', 'dataService', function($scope, dataService) {
-  
-  // $scope.getItems = 
-  
-  dataService.getItems(function(response) {
-    $scope.items = response.data;
-    dataService.items = response.data;
-  });
-    
+.controller('homeCtrl', ['$scope', function($scope) {
+     
 }])
 .controller('craftCtrl',  ['$scope', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
   function($scope, dataService, itemTypes, itemRarity, itemBonuses) {
@@ -53,13 +54,14 @@ angular.module('moeCalcApp')
     $scope.itemTypes = itemTypes;
     $scope.itemRarity = itemRarity;
     $scope.itemBonuses = itemBonuses;
-    
-    $scope.item_type = 0;
-    $scope.item_rarity = 0;
-    $scope.item_select = 0;
+
+    $scope.treeDepth = 0;
     
     $scope.isEmpty = function(obj) {
-      return Object.keys(obj).length > 0;
+      if (!angular.isUndefined(obj)) {
+        return Object.keys(obj).length > 0;
+      }
+      return false;
     }
   }])
 .controller('inventoryCtrl', 

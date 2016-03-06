@@ -1,22 +1,5 @@
-{{item.name}} | {{qty}} | {{item.recipe}}
+{{treeDepth}} | {{item.name}} | {{qty}} | {{item.recipe}} 
 <ul ng-if="isEmpty(item.recipe)">
-  <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]">
+  <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1">
   </li>
 </ul>
-
-<!--<td>{{itemIndex}}</td>
-<td class="item-type"><img class="item-icon" ng-src="./img/{{itemTypes[item.type]}}.png" alt="{{itemTypes[item.type]}}"></td>
-<td class="item-name">{{item.name}}</td>
-<td class="item-level">{{item.level}}</td>
-<td class="item-bonus">
-  <ul ng-repeat="bonus in item.bonus">
-    <li>{{itemBonuses[bonus.stat]}}: {{bonus.value}}%</li>
-  </ul>
-</td>
-<td class="item-sell"><img class="item-silver" src="./img/silver.png" alt="silver">{{item.sell}}</td>
-</tr>
-<tr ng-if="isEmpty(item.recipe)" class="hidden table-container-tr"><td colspan=5 class="table-container-td">
-  <table class="table-depth-1">
-    <tr ng-repeat="(itemIndex, qty) in item.recipe" ng-init="item = items[itemIndex]" ng-include="'/templates/craft-tree.html'" ng-class="itemRarity[item.rarity]"></tr>
-  </table>
-</td>-->

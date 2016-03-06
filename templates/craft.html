@@ -4,12 +4,14 @@
       <p>
         <label for="type">Type:
           <select ng-model="item_type" ng-options="itemTypes.indexOf(type) as type|capitalize for type in itemTypes" id="type" name="item_type">
+            <option value="">Select Type</option>
           </select>
         </label>
       </p>
       <p> 
         <label for="rarity">Rarity:</label>
         <select ng-model="item_rarity" ng-options="itemRarity.indexOf(rarity) as rarity|capitalize for rarity in itemRarity" id="rarity" name="item_rarity">
+          <option value="">Select Rarity</option>
         </select>
       </p>
     </fieldset>
@@ -19,10 +21,10 @@
         <select ng-model="item_select" ng-options="items.indexOf(item) as item.name for item in items | filter: {type : item_type, rarity : item_rarity}" ng-change="item = items[item_select]" id="item-select" name="item_select">
           <option value="">Select Item</option>
         </select>
-        <button id="load-item" name="load_item" type="button">Load</button>
       </p>
     </fieldset>
   </form>
+  <hr>
   <div id="craft-tree">
     {{item_type}}
     {{item_rarity}}
@@ -32,28 +34,9 @@
     {{items[item_select].name}}
     
     <ul ng-if="isEmpty(items[item_select].recipe)">
-      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]">
+      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1">
       </li>
     </ul>
-    <!--<table class="table-depth-0">
-      <tr>
-        <td>{{itemIndex}}</td>
-        <td class="item-type"><img class="item-icon" ng-src="./img/{{itemTypes[item.type]}}.png" alt="{{itemTypes[item.type]}}"></td>
-        <td class="item-name">{{item.name}}</td>
-        <td class="item-level">{{item.level}}</td>
-        <td class="item-bonus">
-          <ul ng-repeat="bonus in item.bonus">
-            <li>{{itemBonuses[bonus.stat]}}: {{bonus.value}}%</li>
-          </ul>
-        </td>
-        <td class="item-sell"><img class="item-silver" src="./img/silver.png" alt="silver">{{item.sell}}</td>
-      </tr>
-      <tr ng-if="isEmpty(item.recipe)" class="hidden table-container-tr"><td colspan=5 class="table-container-td">
-        <table class="table-depth-1">
-          <tr ng-repeat="(itemIndex, qty) in item.recipe" ng-init="item = items[itemIndex]" ng-include="'/templates/craft-tree.html'" ng-class="itemRarity[item.rarity]"></tr>
-        </table>
-      </td></tr>       
-    </table>
-  -->
+    
   </div>
 </div>
