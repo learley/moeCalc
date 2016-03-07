@@ -1,4 +1,10 @@
-{{treeDepth}} | {{item.name}} | {{qty}} | {{item.recipe}} 
+{{treeDepth}}
+<img class="item-icon" ng-src="./img/{{itemTypes[item.type]}}.png" alt="{{itemTypes[item.type]}}">
+{{item.name}}
+<ul ng-repeat="bonus in item.bonus">
+  <li>{{itemBonuses[bonus.stat]}}: {{bonus.value}}%</li>
+</ul>
+{{qty}} 
 <ul ng-if="isEmpty(item.recipe)">
   <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1">
   </li>

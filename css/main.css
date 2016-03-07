@@ -137,24 +137,24 @@ table ul {
   padding: 0;
 }
 
-tr.common {
+.common {
   background: #dbdbdb;
 }
-tr.uncommon {
+.uncommon {
   background: #81ff7d;
 }
-tr.rare {
+.rare {
   background: #7d9bff;
 }
-tr.epic {
+.epic {
   background: #cf7dff;
 }
-tr.legendary {
+.legendary {
   background: #ffd47d;
 }
 
-td.item-level,
-td.item-type {
+.item-level,
+.item-type {
   text-align: center;
 }
 

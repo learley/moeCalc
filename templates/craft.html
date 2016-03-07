@@ -25,7 +25,7 @@
     </fieldset>
   </form>
   <hr>
-  <div id="craft-tree">
+  <div id="craft-tree" ng-class="itemRarity[item.rarity]">
     {{item_type}}
     {{item_rarity}}
     {{item_select}}
@@ -34,7 +34,7 @@
     {{items[item_select].name}}
     
     <ul ng-if="isEmpty(items[item_select].recipe)">
-      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1">
+      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1" ng-class="itemRarity[item.rarity]">
       </li>
     </ul>
     
