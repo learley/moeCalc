@@ -25,16 +25,24 @@
     </fieldset>
   </form>
   <hr>
-  <div id="craft-tree" ng-class="itemRarity[item.rarity]">
-    {{item_type}}
-    {{item_rarity}}
-    {{item_select}}
-    {{item.recipe}}<br/>
-    {{items[item_select].recipe}}<br/>
-    {{items[item_select].name}}
+  <div id="craft-tree" ng-show="item">
+    <div class="item-recipe-tree">
+      <span ng-class="itemRarity[item.rarity]" class="item-tree-item">
+        <span class="item-type"><img class="item-icon" ng-src="./img/{{itemTypes[item.type]}}.png" alt="{{itemTypes[item.type]}}"></span>
+        <span class="item-name">{{item.name}}</span>
+        <span class="item-bonus">
+          <ul ng-repeat="bonus in item.bonus">
+            <li>{{itemBonuses[bonus.stat]}}: {{bonus.value}}%</li>
+          </ul>
+        </span>
+        <span class="item-level">{{item.level}}</span>   
+        <span class="item-recipe-qty">{{qty}}</span>
+        <span class="item-user-qty">0</span>
+      </span>
+    </div>
     
-    <ul ng-if="isEmpty(items[item_select].recipe)">
-      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1" ng-class="itemRarity[item.rarity]">
+    <ul ng-if="isEmpty(items[item_select].recipe)" class="tree-ul">
+      <li ng-repeat="(itemIndex, qty) in item.recipe" ng-include="'/templates/craft-tree.html'" ng-init="item = items[itemIndex]; treeDepth = treeDepth + 1" class="item-recipe-tree">
       </li>
     </ul>
     

@@ -75,11 +75,11 @@ a, a:hover, a:visited {
 
 /* Table Styles */
 
-table {
+/*table {
   border-collapse: separate;
   margin: 0 0 0 10px;
   border: 1px solid black;
-  /*border-radius: 15px;*/
+  /*border-radius: 15px;
   overflow: hidden;
   width: 100%;
 }
@@ -129,13 +129,13 @@ table tr:last-child td:first-child {
 }
 table tr:last-child td:last-child {
   border-bottom-right-radius: 15px;
-}*/
+}
 
 table ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+}*/
 
 .common {
   background: #dbdbdb;
@@ -156,7 +156,53 @@ table ul {
 .item-level,
 .item-type {
   text-align: center;
+  padding: 5px;
 }
+
+#craft-tree {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
+  border: 1px solid black;
+}
+
+
+span.item-bonus > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item-tree-item {
+  display: flex;
+  margin: 1px;
+}
+
+span.item-type,
+span.item-level,
+span.item-recipe-qty,
+span.item-user-qty {
+  flex-basis: 5%;
+  text-align: center;
+  padding: 5px;
+  min-width: 30px;
+}
+
+span.item-name,
+span.item-bonus {
+  flex-basis: 40%;
+}
+
+.tree-ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin: 0 0 0 10px;
+  list-style-type: none;
+}
+
 
 /* Form Styles */
 
