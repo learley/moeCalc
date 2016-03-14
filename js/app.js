@@ -1,4 +1,4 @@
-angular.module('moeCalcApp', ['ngRoute'])
+angular.module('moeCalcApp', ['ngRoute', 'ngStorage'])
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider
     .when('/', {

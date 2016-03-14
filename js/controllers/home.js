@@ -48,8 +48,9 @@ angular.module('moeCalcApp')
 .controller('homeCtrl', ['$scope', function($scope) {
      
 }])
-.controller('craftCtrl',  ['$scope', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
-  function($scope, dataService, itemTypes, itemRarity, itemBonuses) {
+.controller('craftCtrl',  ['$scope', '$localStorage' 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
+  function($scope, $localStorage, dataService, itemTypes, itemRarity, itemBonuses) {
+    $scope.storage = $localStorage;
     $scope.items = dataService.items;
     $scope.itemTypes = itemTypes;
     $scope.itemRarity = itemRarity;
@@ -65,12 +66,15 @@ angular.module('moeCalcApp')
     }
   }])
 .controller('inventoryCtrl', 
-  ['$scope', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
-  function($scope, dataService, itemTypes, itemRarity, itemBonuses) {
+  ['$scope', '$localStorage', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
+  function($scope, $localStorage, dataService, itemTypes, itemRarity, itemBonuses) {
+    $scope.storage = $localStorage;
     $scope.items = dataService.items;
     $scope.itemTypes = itemTypes;
     $scope.itemRarity = itemRarity;
     $scope.itemBonuses = itemBonuses;
+    
+    
   }])
 .controller('equipCtrl', ['$scope', 'dataService', function($scope, dataService) {}])
 .controller('aboutCtrl', ['$scope', 'dataService', function($scope, dataService) {}]);
