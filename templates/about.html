@@ -1,3 +1,12 @@
 <div id="content-area">
-  <h2>About/FAQ</h2>
+  <h2>Zen : {{zen}}</h2>
+  <h3>Last 5 commits</h3>
+  <ul>
+    <li ng-repeat="commit in commits.slice(0,5)">
+      SHA: {{commit.sha}}<br/>
+      Date: {{commit.commit.author.date}}<br/>
+      Comment: {{commit.commit.message}}<br/>
+      URL: <a href='{{commit.html_url}}'>{{commit.html_url}}</a>
+    </li>
+  </ul>
 </div>

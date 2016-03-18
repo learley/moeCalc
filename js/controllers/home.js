@@ -48,7 +48,7 @@ angular.module('moeCalcApp')
 .controller('homeCtrl', ['$scope', function($scope) {
      
 }])
-.controller('craftCtrl',  ['$scope', '$localStorage' 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
+.controller('craftCtrl',  ['$scope', '$localStorage', 'dataService', 'itemTypes', 'itemRarity', 'itemBonuses', 
   function($scope, $localStorage, dataService, itemTypes, itemRarity, itemBonuses) {
     $scope.storage = $localStorage;
     $scope.items = dataService.items;
@@ -77,4 +77,18 @@ angular.module('moeCalcApp')
     
   }])
 .controller('equipCtrl', ['$scope', 'dataService', function($scope, dataService) {}])
-.controller('aboutCtrl', ['$scope', 'dataService', function($scope, dataService) {}]);
+.controller('aboutCtrl', 
+  ['$scope', 'dataService', 'gitApiService', 
+  function($scope, dataService, gitApiService) {
+    
+    gitApiService.getZen(function(response) {
+      console.log(response.data);
+      $scope.zen = response.data;
+    });
+    
+    gitApiService.getCommits(function(response) {
+      console.log(response.data);
+      $scope.commits = response.data;
+    });
+    
+  }]);
