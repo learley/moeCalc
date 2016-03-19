@@ -9,11 +9,7 @@ angular.module('moeCalcApp')
     $http.get('data/items.json').then(callback);
   };
 }])
-.service('gitApiService', ['$http', function($http) {
-  this.getZen = function(callback) {
-    $http.get('https://api.github.com/zen').then(callback);
-  };
-  
+.service('gitApiService', ['$http', function($http) { 
   this.getCommits = function(callback) {
     $http.get('https://api.github.com/repos/learley/moeCalc/commits').then(callback);
   };

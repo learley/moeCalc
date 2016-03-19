@@ -80,15 +80,9 @@ angular.module('moeCalcApp')
 .controller('aboutCtrl', 
   ['$scope', 'dataService', 'gitApiService', 
   function($scope, dataService, gitApiService) {
-    
-    gitApiService.getZen(function(response) {
-      console.log(response.data);
-      $scope.zen = response.data;
-    });
-    
     gitApiService.getCommits(function(response) {
       console.log(response.data);
       $scope.commits = response.data;
     });
-    
+          
   }]);

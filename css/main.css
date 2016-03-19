@@ -246,6 +246,24 @@ select {
   top: 3px;
 }
 
+.grid {
+  list-style-type: none;
+  padding: 0;
+}
+.grid-headers {
+  font-weight: bold;
+  background-color: #aaa;
+}
+.grid div {
+  padding: 4px;
+  border: 1px solid #aaa;
+}
+.grid > li {
+  margin-bottom: 10px;
+  border: 2px solid #aaa;
+}
+
+
 .hidden {
   display: none;
 }
@@ -271,3 +289,19 @@ select {
 
 /* --- Media Queries --- */
 
+@media (min-width: 768px) {
+
+  .row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .grid {
+    padding: 2em;
+  }
+  .grid > li {
+    margin-bottom: 0;
+    border: none;
+  }
+}

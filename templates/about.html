@@ -1,12 +1,14 @@
 <div id="content-area">
-  <h2>Zen : {{zen}}</h2>
   <h3>Last 5 commits</h3>
-  <ul>
-    <li ng-repeat="commit in commits.slice(0,5)">
-      SHA: {{commit.sha}}<br/>
-      Date: {{commit.commit.author.date}}<br/>
-      Comment: {{commit.commit.message}}<br/>
-      URL: <a href='{{commit.html_url}}'>{{commit.html_url}}</a>
+  <ul class="grid">
+    <li class="row hidden-xs grid-headers">
+      <div class="col-sm-2 text-center">Date<br/></div>
+      <div class="col-sm-8">Comment<br/></div>
+      <div class="col-sm-2 text-center">Link</a></div>
+    <li ng-repeat="commit in commits.slice(0,5)" class="row row-eq-height">
+      <div class="col-sm-2 text-center">{{commit.commit.author.date}}</div>
+      <div class="col-sm-8">{{commit.commit.message}}</div>
+      <div class="col-sm-2 text-center"><a href='{{commit.html_url}}'>View on GitHub</a></div>
     </li>
   </ul>
 </div>
