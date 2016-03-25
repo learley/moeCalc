@@ -57,6 +57,7 @@ angular.module('moeCalcApp')
     $scope.itemBonuses = itemBonuses;
 
     $scope.treeDepth = 0;
+    $scope.expanded = true;
     
     $scope.isEmpty = function(obj) {
       if (!angular.isUndefined(obj)) {

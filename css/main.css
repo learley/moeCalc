@@ -152,6 +152,22 @@ table ul {
 .legendary {
   background: #ffd47d;
 }
+.common.expandable {
+  background: #bfbfbf;
+}
+.uncommon.expandable {
+  background: #3aff33;
+}
+.rare.expandable {
+  background: #3363ff;
+}
+.epic.expandable {
+  background: #b433ff;
+}
+.legendary.expandable {
+  background: #ffbb33;
+}
+
 
 .item-level,
 .item-type {
