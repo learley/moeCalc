@@ -1,11 +1,19 @@
 <div id="content-area">
-  <h3>Last 5 commits</h3>
+  
+  <h2>GitHub</h2>
+  <p>This project's code is available on <a href="https://github.com/">GitHub</a>!</p>
+  <p>If you'd like to report an issue, please do so on the project's <a href="https://github.com/learley/moeCalc">repository page</a>. You can also track the project's progress by viewing recent commits below.</p>
+  <h3>Recent commits</h3>
+  <select ng-model="range" name="select_range" class="range-select">
+    <option value="5" selected="selected">Last 5</option>
+    <option value="{{commits.length}}">All ({{commits.length}})</option>
+  </select>
   <ul class="grid">
     <li class="row hidden-xs grid-headers">
       <div class="col-sm-2 text-center">Date<br/></div>
       <div class="col-sm-8">Comment<br/></div>
       <div class="col-sm-2 text-center">Link</a></div>
-    <li ng-repeat="commit in commits.slice(0,5)" class="row row-eq-height">
+    <li ng-repeat="commit in selectedRange(commits, range)" class="row row-eq-height">
       <div class="col-sm-2 text-center">{{commit.commit.author.date}}</div>
       <div class="col-sm-8">{{commit.commit.message}}</div>
       <div class="col-sm-2 text-center"><a href='{{commit.html_url}}'>View on GitHub</a></div>

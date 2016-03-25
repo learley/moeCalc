@@ -263,6 +263,9 @@ select {
   border: 2px solid #aaa;
 }
 
+.range-select {
+  margin-bottom: 10px;
+}
 
 .hidden {
   display: none;
@@ -303,5 +306,9 @@ select {
   .grid > li {
     margin-bottom: 0;
     border: none;
+  }
+  
+  .range-select {
+    max-width: 100px;
   }
 }

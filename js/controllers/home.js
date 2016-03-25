@@ -80,9 +80,23 @@ angular.module('moeCalcApp')
 .controller('aboutCtrl', 
   ['$scope', 'dataService', 'gitApiService', 
   function($scope, dataService, gitApiService) {
+    
     gitApiService.getCommits(function(response) {
-      console.log(response.data);
       $scope.commits = response.data;
+      $scope.range = "5";
     });
-          
+    
+    $scope.selectedRange = function(array, range) {
+      
+      if (!angular.isUndefined(array)) {
+        var displayArray = [];
+        for (var i=0; i<range; i+=1) {
+          displayArray.push(array[i]);
+        }
+        return displayArray;
+      }
+      else {
+        return array;
+      }
+    }          
   }]);
