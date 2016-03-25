@@ -2,11 +2,10 @@
   <form id="item-picker" action="">
     <fieldset name="item_filters">
       <p>
-        <label for="type">Type:
+        <label for="type">Type:</label>
           <select ng-model="item_type" ng-options="itemTypes.indexOf(type) as type|capitalize for type in itemTypes" id="type" name="item_type">
             <option value="">Select Type</option>
           </select>
-        </label>
       </p>
       <p> 
         <label for="rarity">Rarity:</label>
