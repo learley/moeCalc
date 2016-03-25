@@ -350,7 +350,7 @@
         "value" : 6
       },
       {
-        "stat" : 39,
+        "stat" : 40,
         "value" : 6
       }
     ],
@@ -565,7 +565,7 @@
     "sell" : 500,
     "bonus" : [
 		  {
-        "stat" : 39,
+        "stat" : 40,
         "value" : 4
       }
     ],
@@ -692,7 +692,7 @@
         "value" : 2
       },
       {
-        "stat" : 39,
+        "stat" : 40,
         "value" : 5
       }
     ],
@@ -845,6 +845,318 @@
       "22" : 1
     }
   },
+  {
+    "name" : "Helm of the Sky",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Pumpkin Helm",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Rusty Helm",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Archer's Helm",
+    "level" : 1,
+    "type" : 0,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Battle Hammer",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Basic Hatchet",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Heirloom Crossbow",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Rusty Kris",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Old Amazon Bow",
+    "level" : 1,
+    "type" : 1,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Wildcat Armor",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Dark Chest",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Antique Armor",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Archer's Light Armor",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Muddy Chest",
+    "level" : 1,
+    "type" : 2,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Pigeon Grips",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Nomad Grips",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Rugged Gloves",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Gloves of Joy",
+    "level" : 1,
+    "type" : 3,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Bear Cub Boots",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Old Nomad Boots",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Rugged Boots",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Dirtskin Boots",
+    "level" : 1,
+    "type" : 4,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Stout Ring",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Dark Ring",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Copper Ring",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },
+  {
+    "name" : "Brigand Band",
+    "level" : 1,
+    "type" : 5,
+    "rarity" : 0,
+    "sell" : 500,
+    "bonus" : [
+		  
+    ],
+    "recipe" : {
+    }  
+  },  
   {
     "name" : "City Guard's Helm",
     "level" : 16,
@@ -1032,7 +1344,7 @@
         "value" : 8
       },
       {
-        "stat" : 40,
+        "stat" : 41,
         "value" : 1
       }
     ],
@@ -1112,7 +1424,7 @@
     "sell" : 3000,
     "bonus" : [
 		  {
-        "stat" : 39,
+        "stat" : 40,
         "value" : 4
       },
       {
@@ -1327,6 +1639,889 @@
       {
         "stat" : 25,
         "value" : 24
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Plate Curiass",
+    "level" : 16,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 9
+      },
+      {
+        "stat" : 21,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ringmail Armor",
+    "level" : 13,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 11,
+        "value" : 3
+      },
+      {
+        "stat" : 34,
+        "value" : 3
+      },
+      {
+        "stat" : 29,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Plate Mail",
+    "level" : 13,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 0,
+        "value" : 10
+      },
+      {
+        "stat" : 25,
+        "value" : 9
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ranger Armor",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 9
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Rider Armor",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 18,
+        "value" : 7
+      },
+      {
+        "stat" : 1,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ornate Chestpiece",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 20,
+        "value" : 8
+      },
+      {
+        "stat" : 12,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Lynx Armor",
+    "level" : 15,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 39,
+        "value" : 16
+      },
+      {
+        "stat" : 37,
+        "value" : 16
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },  
+  {
+    "name" : "Shadowy Chest",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1, 
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 15,
+        "value" : 10
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Reforged Armor",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 22,
+        "value" : 13
+      },
+      {
+        "stat" : 23,
+        "value" : 13
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Armor of Swiftness",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 13,
+        "value" : 9
+      },
+      {
+        "stat" : 20,
+        "value" : 11
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Gift Armor",
+    "level" : 10,
+    "type" : 2,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 42,
+        "value" : 5
+      },
+      {
+        "stat" : 25,
+        "value" : 8
+      },
+      {
+        "stat" : 35,
+        "value" : 10
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Mercantile Grips",
+    "level" : 16,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 28,
+        "value" : 12
+      },
+      {
+        "stat" : 38,
+        "value" : 9
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Heirloom Gauntlets",
+    "level" : 13,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 26,
+        "value" : 12
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Farmer's Glory",
+    "level" : 13,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 35,
+        "value" : 14
+      },
+      {
+        "stat" : 24,
+        "value" : 4
+      },
+      {
+        "stat" : 15,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Hide Gloves",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 16,
+        "value" : 6
+      },
+      {
+        "stat" : 15,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Engineer's Gloves",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 19,
+        "value" : 10
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Governor's Grips",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 29,
+        "value" : 8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Vulture Grips",
+    "level" : 15,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 30,
+        "value" : 8
+      },
+      {
+        "stat" : 1,
+        "value" : 6
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Fine Nomad Grips",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 5,
+        "value" : 9
+      },
+      {
+        "stat" : 4,
+        "value" : 9
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Hardened Gloves",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 22
+      },
+      {
+        "stat" : 25,
+        "value" : 25
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Gloves of Wonder",
+    "level" : 10,
+    "type" : 3,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 8,
+        "value" : 6
+      },
+      {
+        "stat" : 34,
+        "value" : 9
+      },
+      {
+        "stat" : 15,
+        "value" : 7
+      },
+      {
+        "stat" : 11,
+        "value" : 7
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Boots of Will",
+    "level" : 16,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 5,
+        "value" : 4
+      },
+      {
+        "stat" : 16,
+        "value" : 8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Militia Sabatons",
+    "level" : 13,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 10
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Architect's Boots",
+    "level" : 13,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 29,
+        "value" : 4
+      },
+      {
+        "stat" : 35,
+        "value" : 7
+      },
+      {
+        "stat" : 24,
+        "value" : 6
+      },
+      {
+        "stat" : 34,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Protective Boots",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 20,
+        "value" : 8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Greaves of Fortune",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 24,
+        "value" : 8
+      },
+      {
+        "stat" : 5,
+        "value" : 2
+      },
+      {
+        "stat" : 10,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Guardsman Boots",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 39,
+        "value" : 5
+      },
+      {
+        "stat" : 4,
+        "value" : 5
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Young Bear Boots",
+    "level" : 15,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 18,
+        "value" : 5
+      },
+      {
+        "stat" : 19,
+        "value" : 5
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Worthy Nomad Boots",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 5,
+        "value" : 11
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Hardened Boots",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 9,
+        "value" : 15
+      },
+      {
+        "stat" : 10,
+        "value" : 15
+      },
+      {
+        "stat" : 14,
+        "value" : 15
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Hare Boots",
+    "level" : 10,
+    "type" : 4,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 1,
+        "value" : 8
+      },
+      {
+        "stat" : 2,
+        "value" : 10
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Darkbane",
+    "level" : 16,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 12,
+        "value" : 7
+      },
+      {
+        "stat" : 37,
+        "value" : 10
+      },
+      {
+        "stat" : 0,
+        "value" : 5
+      },
+      {
+        "stat" : 15,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Doombringer",
+    "level" : 16,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 8,
+        "value" : 5
+      },
+      {
+        "stat" : 9,
+        "value" : 5
+      },
+      {
+        "stat" : 40,
+        "value" : 5
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ring of Riches",
+    "level" : 13,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 28,
+        "value" : 9
+      },
+      {
+        "stat" : 17,
+        "value" : 3
+      },
+      {
+        "stat" : 29,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Thousand Cuts",
+    "level" : 13,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 6
+      },
+      {
+        "stat" : 4,
+        "value" : 5
+      },
+      {
+        "stat" : 34,
+        "value" : 2
+      },
+      {
+        "stat" : 29,
+        "value" : 2
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Lieutenant's Signet",
+    "level" : 13,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 1,
+        "value" : 7
+      },
+      {
+        "stat" : 17,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ring of Agression",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 14,
+        "value" : 7
+      },
+      {
+        "stat" : 34,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Rusted Royal Band",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 24,
+        "value" : 9
+      },
+      {
+        "stat" : 15,
+        "value" : 3
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ancient Signet",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 10,
+        "value" : 8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Signet of Power",
+    "level" : 16,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 27,
+        "value" : 6
+      },
+      {
+        "stat" : 21,
+        "value" : 4
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Ring of Glory",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 13,
+        "value" : 3
+      },
+      {
+        "stat" : 20,
+        "value" : 4
+      },
+      {
+        "stat" : 36,
+        "value" : 7
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 10000
+  },
+  {
+    "name" : "Boar's Strength",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 20,
+        "value" : 6
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Gloomy Ring",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 43,
+        "value" : 8
+      },
+      {
+        "stat" : 24,
+        "value" : 12
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Bronze Ring",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 33,
+        "value" : -8
+      }
+    ],
+    "recipe" : {},
+    "recipeCost" : 5000
+  },
+  {
+    "name" : "Wedding Band",
+    "level" : 10,
+    "type" : 5,
+    "rarity" : 1,
+    "sell" : 3000,
+    "bonus" : [
+		  {
+        "stat" : 39,
+        "value" : 17
+      },
+      {
+        "stat" : 35,
+        "value" : 17
+      },
+      {
+        "stat" : 36,
+        "value" : 17
+      },
+      {
+        "stat" : 37,
+        "value" : 17
       }
     ],
     "recipe" : {},
